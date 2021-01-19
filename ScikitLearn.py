@@ -26,7 +26,7 @@ import csv
 # =============================================================================
 # Data import
 # =============================================================================
-os.chdir(r"S:\Research & Analysis\4. BAU & Ad hoc Projects\Ad hoc\Current\AHR-0102 Analysis of AML documents\PDF Reader")
+os.chdir("")
 df = pd.read_csv("TFIDF.csv") #TFIDF
 df2 = pd.read_csv("full_final_merged_firms.csv") #RAW
 
@@ -105,15 +105,6 @@ nb_prediction = model.predict(X2_test)
 print("SVM results:")
 print(confusion_matrix(y_test,nb_prediction))
 print("\n")
-
-
-
-
-
-
-
-
-
 
 # =============================================================================
 # The best model therefore seems to be the complment NB or the simple MNNB.
