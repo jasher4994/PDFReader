@@ -4,7 +4,7 @@ Created on Fri Oct  2 10:16:45 2020
 
 @author: 014174
 
-MODEL SELECTION - predicting compliance
+MODEL SELECTION 
 
 """
 # =============================================================================
@@ -28,7 +28,7 @@ import csv
 # =============================================================================
 os.chdir("")
 df = pd.read_csv("TFIDF.csv") #TFIDF
-df2 = pd.read_csv("full_final_merged_firms.csv") #RAW
+df2 = pd.read_csv(" ********************** ") #RAW
 
 
 # =============================================================================
